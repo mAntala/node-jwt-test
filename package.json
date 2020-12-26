@@ -1,0 +1,35 @@
+{
+  "name": "elsoma-project",
+  "version": "1.0.0",
+  "description": "Simple Node.js application",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mAntala/elsoma-project.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Maroš Antala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mAntala/elsoma-project/issues"
+  },
+  "homepage": "https://github.com/mAntala/elsoma-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
